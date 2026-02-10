@@ -13,7 +13,7 @@ test.describe('Dashboard Tests', () => {
         await loginPage.login('noreply-dev+yes@enumverse.com', 'Sunday@222');
         await loginPage.loginButton.click();
         
-        await page.   waitForURL('https://educator.dev.enumverse.com/admin/dashboard');
+        await page.waitForURL('https://educator.dev.enumverse.com/admin/dashboard');
     });
 
     test.afterAll(async ({ page }) => {
